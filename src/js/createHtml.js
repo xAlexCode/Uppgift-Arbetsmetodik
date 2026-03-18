@@ -8,7 +8,7 @@ let i = 0;
 export async function createHtml (){
     const podCasts = await getPodcasts ();
     podCasts.programs.forEach((podcast) => {
-   
+   console.log("API-svar:", podCasts); // Logga API svaret, dock hela listan
     const innerArticle = createInnerArticle();
 
     createImg();
