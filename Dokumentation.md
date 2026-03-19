@@ -20,3 +20,9 @@ Installerade biome istället för Eslint och prettier, ville testa det denna gå
 
 ## Mobilvyn 
 Felstavning i meta-taggen, som gjorde att webbsidan skalade fel. Visar hur enkelt en felstavning kan strula med koden och inte göra som man vill.
+
+## Språk
+Byta från "en" till "sv", för att uppläsningen ska bli korrekt på svenska
+```html
+<html lang="sv">
+```
