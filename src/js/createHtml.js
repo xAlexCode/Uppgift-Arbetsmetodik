@@ -7,8 +7,8 @@ let i = 0;
 
 export async function createHtml (){
     const podCasts = await getPodcasts ();
-    podCasts.programs.forEach((podcast) => {
-   console.log("API-svar:", podCasts); // Logga API svaret, dock hela listan
+    podCasts.programs.forEach((podcast) => { //Lägg till index igen senare
+    console.log("API-svar:", podCasts); // Logga API svaret, dock hela listan
     const innerArticle = createInnerArticle();
 
     createImg();
@@ -37,7 +37,7 @@ export async function createHtml (){
     function createLink (){
         const linkPlacement = document.createElement('a');
         const linkText = document.createTextNode('Lyssna här');
-        linkPlacement.setAttribute('href', podcast.programurl);
+        linkPlacement.setAttribute('href', podcast.programurl); // inuti loopen behöver den inte index (program[i]) då den har tillgång till APIn
         linkPlacement.setAttribute('tabindex', '1')
         linkPlacement.appendChild(linkText);
         textDiv.appendChild(linkPlacement)
@@ -67,4 +67,4 @@ function createHeader() {
 })
 }
 
-export default createHtml
+export default createHtml;

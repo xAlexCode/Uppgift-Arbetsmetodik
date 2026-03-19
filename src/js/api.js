@@ -1,21 +1,20 @@
-import localData from './data/podcasts.json'; // Kan kalla det vad jag vill 
+let podcasts = {};
 
-export async function getPodcasts() {
-    return localData;
-}
-
-export default getPodcasts;
-
-// Kommenterade ut API requesten och använder en lokal med hela API listan så länge under testningen
-/*export async function getPodcasts() {
-    return await fetch('https://api.sr.se/api/v2/programs/index?programcategoryid=133&format=json&pagination=false&indent=true&filter=program.archived&filterValue=false')
-    .then((data) => data.json())
+if (import.meta.env.DEV) {
+    const module = await import('./data/podcasts.json'); // Laddar in JSON filen dynamiskt i Dev mode
+    podcasts = module.default;
+} else {
+    podcasts = await fetch('https://api.sr.se/api/v2/programs/index?programcategoryid=133&format=json&pagination=false&indent=true&filter=program.archived&filterValue=false') // Använder riktiga API när npm run build körts
+        .then((data) => data.json())
         .then((json) => json)
         .catch((error) => {
             console.error('nått blev fel:', error)
             return null;
         })
-
 }
 
-export default getPodcasts;*/
+export async function getPodcasts() {
+    return podcasts;
+}
+
+export default getPodcasts;
