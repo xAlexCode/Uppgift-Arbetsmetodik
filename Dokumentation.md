@@ -1,0 +1,3 @@
+
+## I CreateHTML.js --> podCast loopen från API
+När man loopar igenom listan av program med forEach får man automatiskt tillgång till det aktuella objektet i parametern podcast. Det innebär att man inte behöver slå upp objektet igen via podCasts.programs[i] och därav bara kalla på podcast istället. ex  imgPlacement.setAttribute('src', podcast.socialimage); - kallar på bilden från apin. Det var det som orsakade felet i koden att podCasts.programs[i] blev undefined på sista varvet i loopen, vilket gjorde att socialimage inte kunde läsas.

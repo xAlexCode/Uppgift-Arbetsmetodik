@@ -7,11 +7,11 @@ let i = 0;
 
 export async function createHtml (){
     const podCasts = await getPodcasts ();
-    podCasts.programs.forEach((podcast) => {
-    i++
+    podCasts.programs.forEach((podcast) => { //Lägg till index igen senare
+    console.log("API-svar:", podCasts); // Logga API svaret, dock hela listan
     const innerArticle = createInnerArticle();
 
-createImg();
+    createImg();
 
     const textDiv = createTextDiv();
 
@@ -27,7 +27,7 @@ createImg();
             return innerArticle;
     }
 
-    function createTextiv() {
+    function createTextDiv() {
         const textDiv = document.createElement('div');
         textDiv.setAttribute('class', 'section__article-div');
         innerArticle.appendChild(textDiv);
@@ -37,14 +37,14 @@ createImg();
     function createLink (){
         const linkPlacement = document.createElement('a');
         const linkText = document.createTextNode('Lyssna här');
-        linkPlacement.setAttribute('href', podCasts.programs[i].programurl);
+        linkPlacement.setAttribute('href', podcast.programurl); // inuti loopen behöver den inte index (program[i]) då den har tillgång till APIn
         linkPlacement.setAttribute('tabindex', '1')
         linkPlacement.appendChild(linkText);
         textDiv.appendChild(linkPlacement)
     }
     function createImg() {
         const imgPlacement = document.createElement('IMG');
-        imgPlacement.setAttribute('src', podCasts.programs[i].socialimage);
+        imgPlacement.setAttribute('src', podcast.socialimage);
         imgPlacement.setAttribute('width', '100');
         imgPlacement.setAttribute('height', '100')
         innerArticle.appendChild(imgPlacement);
@@ -52,14 +52,14 @@ createImg();
 
     function createP() {
     const descPlacement = document.createElement('p');
-    const desc = document.createTextNode(podCasts.programs[i].description);
+    const desc = document.createTextNode(podcast.description);
     descPlacement.appendChild(desc);
     textDiv.appendChild(descPlacement);
 }
 
 function createHeader() {
     const headerPlacement = document.createElement('h2');
-    const programName = document.createTextNode(podCasts.programs[i].name);
+    const programName = document.createTextNode(podcast.name);
     headerPlacement.appendChild(programName);
     textDiv.appendChild(headerPlacement);
 }
@@ -67,4 +67,4 @@ function createHeader() {
 })
 }
 
-export default createHtml
+export default createHtml;
