@@ -2,73 +2,89 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-.section__article-innerarticle{
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 2rem;
+
+.podList {
+
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .podListButton {
+    margin-bottom: 1rem;
+  }
+
+  .podListContainer {
+    margin-top: 2rem;
+
+    @media screen and (min-width: 1000px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (min-width: 1440px) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  .podListSections {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+
+    .podListImage {
+      margin-top: .5rem;
+      width: 100px;
+      height: 100px;
+    }
+
+    .podListContent {
+      display: inline-flex;
+      flex-direction: column;
+      margin-left: 1rem;
+
+      h2 {
+        font-size: 1.25rem;
+        margin: 0;
+      }
+
+      p {
+        font-size: 1rem;
+        margin: 0;
+      }
+
+      a {
+        color: rgba(255, 255, 255, 0.87);
+        cursor: pointer;
+
+        &:hover,
+        &:active {
+          color: rgb(85, 85, 218);
+        }
+      }
+    }
+  }
 }
 
-.section__article-div{
-  display: inline-flex;
-  flex-direction: column;
-  margin-top: 0;
-  margin-left: 1rem;
-}
-img{
-  margin-top: .5rem;
-}
-h1{
-  font-size: 40px;
-  text-align: center;
-}
-h2{
-  font-size: 1.25rem;
-  margin: 0;
-
-}
-p{
-  font-size: 1rem;
-  margin: 0;
-}
-a {
-  color:rgba(255, 255, 255, 0.87);
-  cursor: pointer;
-
-}
-a :active, a:hover{
-  color:rgb(85, 85, 218);
-}
-
-.darkmode{
+.darkmode {
   background-color: antiquewhite;
   color: #242424;
-}
-.darkmode a{
-  color: #242424;
-}
-.darkmode a:active, .darkmode a:hover{
-  color:rgb(85, 85, 218);
-}
-@media screen and (min-width: 1000px) {
-  .section__podlist-pods{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+
+  a {
+    color: #242424;
+
+    &:hover,
+    &:active {
+      color: rgb(85, 85, 218);
+    }
   }
-}
-@media screen and (min-width: 1440px) {
-  .section__podlist-pods{
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  
 }
