@@ -1,13 +1,13 @@
 # Anteckningar/tankar kring uppgifterna
-Här skriver jag lite om problemen som felsökts och tankar hur jag tänkte som är värda att lägga på minnet eller som anteckning till framtiden
+Här skriver jag lite om problemen som felsökts och tankar hur jag tänkte som är värda att lägga på minnet eller som anteckning till framtiden.
 
 ## Få projektet att funka
-I CreateHTML.js --> podCast loopen från API
+I CreateHTML.js --> podCast loopen från API.
 
 När man loopar igenom listan av program med forEach får man automatiskt tillgång till det aktuella objektet i parametern podcast. Det innebär att man inte behöver slå upp objektet igen via podCasts.programs[i] och därav bara kalla på podcast istället. ex  imgPlacement.setAttribute('src', podcast.socialimage); - kallar på bilden från apin. Det var det som orsakade felet i koden att podCasts.programs[i] blev undefined på sista varvet i loopen, vilket gjorde att socialimage inte kunde läsas.
 
 ## CSS till Sass
-Installerade som vanligt och passade på att skriva en guide när jag ändå höll på
+Installerade som vanligt och passade på att skriva en guide när jag ändå höll på.
 
 ## Enhetlig namngivning i CSS/SASS
 Ordnade upp class namnen i js och css, samt nästlade. Lite svårt att komma på bra namn när man inte är insatt i projektet och får gissa lite.
@@ -22,7 +22,9 @@ Installerade biome istället för Eslint och prettier, ville testa det denna gå
 Felstavning i meta-taggen, som gjorde att webbsidan skalade fel. Visar hur enkelt en felstavning kan strula med koden och inte göra som man vill.
 
 ## Språk
-Byta från "en" till "sv", för att uppläsningen ska bli korrekt på svenska
+Byta från "en" till "sv", för att uppläsningen ska bli korrekt på svenska.
 ```html
 <html lang="sv">
 ```
+## Rensa loggnign
+Rensa bort console.log ur koden. Men behöll consol.error i api.ts eftersom den används vid felhantering och påverkar inte användaren.

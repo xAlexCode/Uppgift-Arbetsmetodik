@@ -11,7 +11,6 @@ export async function createHtml() {
   const podCasts = (await getPodcasts()) as IPodcastResponse; // Lova ts att datan följer interfacet
   podCasts.programs.forEach((podcast: IPodcast) => {
     //Lägg till index igen senare
-    console.log("API-svar:", podCasts); // Logga API svaret, dock hela listan
     const innerArticle = createInnerArticle();
 
     createImg();
