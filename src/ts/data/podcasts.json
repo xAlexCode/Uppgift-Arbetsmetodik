@@ -38,334 +38,332 @@
       "id": 1307,
       "name": "På minuten"
     },
-    { "description": "Norrländsk humor när den är som bäst. Mammas Nya Kille släpper inte längre nya avsnitt.",
-        "programcategory": {
-            "id": 133,
-            "name": "Humor"
-        },
-        "broadcastinfo": "",
-        "email": "lyssnarservice@sverigesradio.se",
-        "phone": "",
-        "programurl": "https://www.sverigesradio.se/mammasnyakille",
-        "programslug": "mammasnyakille",
-        "programimage": "https://static-cdn.sr.se/images/2399/ba5436f2-ba5c-4723-b738-220396a27ff7.jpg?preset=api-default-square",
-        "programimagetemplate": "https://static-cdn.sr.se/images/2399/ba5436f2-ba5c-4723-b738-220396a27ff7.jpg",
-        "programimagewide": "https://static-cdn.sr.se/images/2399/85c2d043-faad-429c-b866-5665a1bb835d.jpg?preset=api-default-rectangle",
-        "programimagetemplatewide": "https://static-cdn.sr.se/images/2399/85c2d043-faad-429c-b866-5665a1bb835d.jpg",
-        "socialimage": "https://static-cdn.sr.se/images/2399/ba5436f2-ba5c-4723-b738-220396a27ff7.jpg?preset=api-default-square",
-        "socialimagetemplate": "https://static-cdn.sr.se/images/2399/ba5436f2-ba5c-4723-b738-220396a27ff7.jpg",
-        "socialmediaplatforms": [
-            {
-                "platform": "Facebook",
-                "platformurl": ""
-            }
-        ],
-        "channel": {
-            "id": 158,
-            "name": "[No channel]"
-        },
-        "archived": false,
-        "hasondemand": false,
-        "haspod": true,
-        "responsibleeditor": "Mark Malmström Fast",
-        "id": 2399,
-        "name": "Mammas Nya Kille"
+    {
+      "description": "Norrländsk humor när den är som bäst. Mammas Nya Kille släpper inte längre nya avsnitt.",
+      "programcategory": {
+        "id": 133,
+        "name": "Humor"
+      },
+      "broadcastinfo": "",
+      "email": "lyssnarservice@sverigesradio.se",
+      "phone": "",
+      "programurl": "https://www.sverigesradio.se/mammasnyakille",
+      "programslug": "mammasnyakille",
+      "programimage": "https://static-cdn.sr.se/images/2399/ba5436f2-ba5c-4723-b738-220396a27ff7.jpg?preset=api-default-square",
+      "programimagetemplate": "https://static-cdn.sr.se/images/2399/ba5436f2-ba5c-4723-b738-220396a27ff7.jpg",
+      "programimagewide": "https://static-cdn.sr.se/images/2399/85c2d043-faad-429c-b866-5665a1bb835d.jpg?preset=api-default-rectangle",
+      "programimagetemplatewide": "https://static-cdn.sr.se/images/2399/85c2d043-faad-429c-b866-5665a1bb835d.jpg",
+      "socialimage": "https://static-cdn.sr.se/images/2399/ba5436f2-ba5c-4723-b738-220396a27ff7.jpg?preset=api-default-square",
+      "socialimagetemplate": "https://static-cdn.sr.se/images/2399/ba5436f2-ba5c-4723-b738-220396a27ff7.jpg",
+      "socialmediaplatforms": [
+        {
+          "platform": "Facebook",
+          "platformurl": ""
+        }
+      ],
+      "channel": {
+        "id": 158,
+        "name": "[No channel]"
+      },
+      "archived": false,
+      "hasondemand": false,
+      "haspod": true,
+      "responsibleeditor": "Mark Malmström Fast",
+      "id": 2399,
+      "name": "Mammas Nya Kille"
     },
     {
-        "description": "Lilla Al-Fadji träffar sina homies i The Greatest Podd Of All Time! Podden släpper inte längre nya avsnitt.",
-        "programcategory": {
-            "id": 133,
-            "name": "Humor"
+      "description": "Lilla Al-Fadji träffar sina homies i The Greatest Podd Of All Time! Podden släpper inte längre nya avsnitt.",
+      "programcategory": {
+        "id": 133,
+        "name": "Humor"
+      },
+      "broadcastinfo": " ",
+      "email": "lyssnarservice@sverigesradio.se",
+      "phone": "",
+      "programurl": "https://www.sverigesradio.se/lilla-al-fadji",
+      "programslug": "lilla-al-fadji",
+      "programimage": "https://static-cdn.sr.se/images/3473/fff10fc6-d7b6-46da-b3c8-b3a6f4d17bfe.jpg?preset=api-default-square",
+      "programimagetemplate": "https://static-cdn.sr.se/images/3473/fff10fc6-d7b6-46da-b3c8-b3a6f4d17bfe.jpg",
+      "programimagewide": "https://static-cdn.sr.se/images/3473/14b072cd-e1c6-47b8-b76a-ba008c82596d.jpg?preset=api-default-rectangle",
+      "programimagetemplatewide": "https://static-cdn.sr.se/images/3473/14b072cd-e1c6-47b8-b76a-ba008c82596d.jpg",
+      "socialimage": "https://static-cdn.sr.se/images/3473/fff10fc6-d7b6-46da-b3c8-b3a6f4d17bfe.jpg?preset=api-default-square",
+      "socialimagetemplate": "https://static-cdn.sr.se/images/3473/fff10fc6-d7b6-46da-b3c8-b3a6f4d17bfe.jpg",
+      "socialmediaplatforms": [
+        {
+          "platform": "Facebook",
+          "platformurl": ""
         },
-        "broadcastinfo": " ",
-        "email": "lyssnarservice@sverigesradio.se",
-        "phone": "",
-        "programurl": "https://www.sverigesradio.se/lilla-al-fadji",
-        "programslug": "lilla-al-fadji",
-        "programimage": "https://static-cdn.sr.se/images/3473/fff10fc6-d7b6-46da-b3c8-b3a6f4d17bfe.jpg?preset=api-default-square",
-        "programimagetemplate": "https://static-cdn.sr.se/images/3473/fff10fc6-d7b6-46da-b3c8-b3a6f4d17bfe.jpg",
-        "programimagewide": "https://static-cdn.sr.se/images/3473/14b072cd-e1c6-47b8-b76a-ba008c82596d.jpg?preset=api-default-rectangle",
-        "programimagetemplatewide": "https://static-cdn.sr.se/images/3473/14b072cd-e1c6-47b8-b76a-ba008c82596d.jpg",
-        "socialimage": "https://static-cdn.sr.se/images/3473/fff10fc6-d7b6-46da-b3c8-b3a6f4d17bfe.jpg?preset=api-default-square",
-        "socialimagetemplate": "https://static-cdn.sr.se/images/3473/fff10fc6-d7b6-46da-b3c8-b3a6f4d17bfe.jpg",
-        "socialmediaplatforms": [
-            {
-                "platform": "Facebook",
-                "platformurl": ""
-            },
-            {
-                "platform": "Instagram",
-                "platformurl": "https://instagram.com//"
-            }
-        ],
-        "channel": {
-            "id": 164,
-            "name": "P3"
-        },
-        "archived": false,
-        "hasondemand": false,
-        "haspod": true,
-        "responsibleeditor": "Caroline Pouron",
-        "id": 3473,
-        "name": "Lilla Al-Fadji"
+        {
+          "platform": "Instagram",
+          "platformurl": "https://instagram.com//"
+        }
+      ],
+      "channel": {
+        "id": 164,
+        "name": "P3"
+      },
+      "archived": false,
+      "hasondemand": false,
+      "haspod": true,
+      "responsibleeditor": "Caroline Pouron",
+      "id": 3473,
+      "name": "Lilla Al-Fadji"
     },
     {
-        "description": "Fas 3 släpper inte längre nya avsnitt. P3:s undersökande satir- och humorpodd.",
-        "programcategory": {
-            "id": 133,
-            "name": "Humor"
+      "description": "Fas 3 släpper inte längre nya avsnitt. P3:s undersökande satir- och humorpodd.",
+      "programcategory": {
+        "id": 133,
+        "name": "Humor"
+      },
+      "broadcastinfo": " ",
+      "email": "lyssnarservice@sverigesradio.se",
+      "phone": "",
+      "programurl": "https://www.sverigesradio.se/fas3",
+      "programslug": "fas3",
+      "programimage": "https://static-cdn.sr.se/images/3718/004f95df-16e2-419d-9f75-82d56f043636.jpg?preset=api-default-square",
+      "programimagetemplate": "https://static-cdn.sr.se/images/3718/004f95df-16e2-419d-9f75-82d56f043636.jpg",
+      "programimagewide": "https://static-cdn.sr.se/images/3718/129722b8-7df0-4b81-a673-5478ae45d97b.jpg?preset=api-default-rectangle",
+      "programimagetemplatewide": "https://static-cdn.sr.se/images/3718/129722b8-7df0-4b81-a673-5478ae45d97b.jpg",
+      "socialimage": "https://static-cdn.sr.se/images/3718/004f95df-16e2-419d-9f75-82d56f043636.jpg?preset=api-default-square",
+      "socialimagetemplate": "https://static-cdn.sr.se/images/3718/004f95df-16e2-419d-9f75-82d56f043636.jpg",
+      "socialmediaplatforms": [
+        {
+          "platform": "Facebook",
+          "platformurl": ""
         },
-        "broadcastinfo": " ",
-        "email": "lyssnarservice@sverigesradio.se",
-        "phone": "",
-        "programurl": "https://www.sverigesradio.se/fas3",
-        "programslug": "fas3",
-        "programimage": "https://static-cdn.sr.se/images/3718/004f95df-16e2-419d-9f75-82d56f043636.jpg?preset=api-default-square",
-        "programimagetemplate": "https://static-cdn.sr.se/images/3718/004f95df-16e2-419d-9f75-82d56f043636.jpg",
-        "programimagewide": "https://static-cdn.sr.se/images/3718/129722b8-7df0-4b81-a673-5478ae45d97b.jpg?preset=api-default-rectangle",
-        "programimagetemplatewide": "https://static-cdn.sr.se/images/3718/129722b8-7df0-4b81-a673-5478ae45d97b.jpg",
-        "socialimage": "https://static-cdn.sr.se/images/3718/004f95df-16e2-419d-9f75-82d56f043636.jpg?preset=api-default-square",
-        "socialimagetemplate": "https://static-cdn.sr.se/images/3718/004f95df-16e2-419d-9f75-82d56f043636.jpg",
-        "socialmediaplatforms": [
-            {
-                "platform": "Facebook",
-                "platformurl": ""
-            },
-            {
-                "platform": "Twitter",
-                "platformurl": "https://twitter.com//"
-            },
-            {
-                "platform": "Instagram",
-                "platformurl": "https://instagram.com//"
-            }
-        ],
-        "channel": {
-            "id": 164,
-            "name": "P3"
+        {
+          "platform": "Twitter",
+          "platformurl": "https://twitter.com//"
         },
-        "archived": false,
-        "hasondemand": true,
-        "haspod": true,
-        "responsibleeditor": "Caroline Kernen",
-        "id": 3718,
-        "name": "Fas 3"
+        {
+          "platform": "Instagram",
+          "platformurl": "https://instagram.com//"
+        }
+      ],
+      "channel": {
+        "id": 164,
+        "name": "P3"
+      },
+      "archived": false,
+      "hasondemand": true,
+      "haspod": true,
+      "responsibleeditor": "Caroline Kernen",
+      "id": 3718,
+      "name": "Fas 3"
     },
     {
-        "description": "Podden som pratar om det inga andra poddar pratar om.",
-        "programcategory": {
-            "id": 133,
-            "name": "Humor"
-        },
-        "payoff": "Podden som pratar om det inga andra poddar pratar om",
-        "broadcastinfo": "Söndag 20.03",
-        "email": "snedtankt@sverigesradio.se",
-        "phone": "",
-        "programurl": "https://www.sverigesradio.se/snedtanktmedkallelind",
-        "programslug": "snedtanktmedkallelind",
-        "programimage": "https://static-cdn.sr.se/images/4747/03bd8e59-747b-4e3c-9e1f-dbe8cf176a6d.jpg?preset=api-default-square",
-        "programimagetemplate": "https://static-cdn.sr.se/images/4747/03bd8e59-747b-4e3c-9e1f-dbe8cf176a6d.jpg",
-        "programimagewide": "https://static-cdn.sr.se/images/4747/b924b702-02c2-436e-819e-c14df67a48f3.jpg?preset=api-default-rectangle",
-        "programimagetemplatewide": "https://static-cdn.sr.se/images/4747/b924b702-02c2-436e-819e-c14df67a48f3.jpg",
-        "socialimage": "https://static-cdn.sr.se/images/4747/03bd8e59-747b-4e3c-9e1f-dbe8cf176a6d.jpg?preset=api-default-square",
-        "socialimagetemplate": "https://static-cdn.sr.se/images/4747/03bd8e59-747b-4e3c-9e1f-dbe8cf176a6d.jpg",
-        "socialmediaplatforms": [
-            {
-                "platform": "Facebook",
-                "platformurl": "https://www.facebook.com/snedtankt"
-            }
-        ],
-        "channel": {
-            "id": 132,
-            "name": "P1"
-        },
-        "archived": false,
-        "hasondemand": false,
-        "haspod": true,
-        "responsibleeditor": "Caroline Pouron",
-        "id": 4747,
-        "name": "Snedtänkt med Kalle Lind"
+      "description": "Podden som pratar om det inga andra poddar pratar om.",
+      "programcategory": {
+        "id": 133,
+        "name": "Humor"
+      },
+      "payoff": "Podden som pratar om det inga andra poddar pratar om",
+      "broadcastinfo": "Söndag 20.03",
+      "email": "snedtankt@sverigesradio.se",
+      "phone": "",
+      "programurl": "https://www.sverigesradio.se/snedtanktmedkallelind",
+      "programslug": "snedtanktmedkallelind",
+      "programimage": "https://static-cdn.sr.se/images/4747/03bd8e59-747b-4e3c-9e1f-dbe8cf176a6d.jpg?preset=api-default-square",
+      "programimagetemplate": "https://static-cdn.sr.se/images/4747/03bd8e59-747b-4e3c-9e1f-dbe8cf176a6d.jpg",
+      "programimagewide": "https://static-cdn.sr.se/images/4747/b924b702-02c2-436e-819e-c14df67a48f3.jpg?preset=api-default-rectangle",
+      "programimagetemplatewide": "https://static-cdn.sr.se/images/4747/b924b702-02c2-436e-819e-c14df67a48f3.jpg",
+      "socialimage": "https://static-cdn.sr.se/images/4747/03bd8e59-747b-4e3c-9e1f-dbe8cf176a6d.jpg?preset=api-default-square",
+      "socialimagetemplate": "https://static-cdn.sr.se/images/4747/03bd8e59-747b-4e3c-9e1f-dbe8cf176a6d.jpg",
+      "socialmediaplatforms": [
+        {
+          "platform": "Facebook",
+          "platformurl": "https://www.facebook.com/snedtankt"
+        }
+      ],
+      "channel": {
+        "id": 132,
+        "name": "P1"
+      },
+      "archived": false,
+      "hasondemand": false,
+      "haspod": true,
+      "responsibleeditor": "Caroline Pouron",
+      "id": 4747,
+      "name": "Snedtänkt med Kalle Lind"
     },
     {
-        "description": "Kalle Lind och Susanna Dzamic kavlar upp ärmarna och vaskar fram guldklimparna ur nyhetsfloden. Från 2017-2023. Fredag i P1 släpper inte längre nya avsnitt.",
-        "programcategory": {
-            "id": 133,
-            "name": "Humor"
+      "description": "Kalle Lind och Susanna Dzamic kavlar upp ärmarna och vaskar fram guldklimparna ur nyhetsfloden. Från 2017-2023. Fredag i P1 släpper inte längre nya avsnitt.",
+      "programcategory": {
+        "id": 133,
+        "name": "Humor"
+      },
+      "broadcastinfo": "",
+      "email": "lyssnarservice@sverigesradio.se",
+      "phone": "",
+      "programurl": "https://www.sverigesradio.se/fredag-i-p1",
+      "programslug": "fredag-i-p1",
+      "programimage": "https://static-cdn.sr.se/images/5054/6e37a660-1f8f-449e-9ca7-24dd97a20fce.jpg?preset=api-default-square",
+      "programimagetemplate": "https://static-cdn.sr.se/images/5054/6e37a660-1f8f-449e-9ca7-24dd97a20fce.jpg",
+      "programimagewide": "https://static-cdn.sr.se/images/5054/20f94be4-b095-4163-a41a-1a2c5a21ee78.jpg?preset=api-default-rectangle",
+      "programimagetemplatewide": "https://static-cdn.sr.se/images/5054/20f94be4-b095-4163-a41a-1a2c5a21ee78.jpg",
+      "socialimage": "https://static-cdn.sr.se/images/5054/6e37a660-1f8f-449e-9ca7-24dd97a20fce.jpg?preset=api-default-square",
+      "socialimagetemplate": "https://static-cdn.sr.se/images/5054/6e37a660-1f8f-449e-9ca7-24dd97a20fce.jpg",
+      "socialmediaplatforms": [
+        {
+          "platform": "Facebook",
+          "platformurl": ""
         },
-        "broadcastinfo": "",
-        "email": "lyssnarservice@sverigesradio.se",
-        "phone": "",
-        "programurl": "https://www.sverigesradio.se/fredag-i-p1",
-        "programslug": "fredag-i-p1",
-        "programimage": "https://static-cdn.sr.se/images/5054/6e37a660-1f8f-449e-9ca7-24dd97a20fce.jpg?preset=api-default-square",
-        "programimagetemplate": "https://static-cdn.sr.se/images/5054/6e37a660-1f8f-449e-9ca7-24dd97a20fce.jpg",
-        "programimagewide": "https://static-cdn.sr.se/images/5054/20f94be4-b095-4163-a41a-1a2c5a21ee78.jpg?preset=api-default-rectangle",
-        "programimagetemplatewide": "https://static-cdn.sr.se/images/5054/20f94be4-b095-4163-a41a-1a2c5a21ee78.jpg",
-        "socialimage": "https://static-cdn.sr.se/images/5054/6e37a660-1f8f-449e-9ca7-24dd97a20fce.jpg?preset=api-default-square",
-        "socialimagetemplate": "https://static-cdn.sr.se/images/5054/6e37a660-1f8f-449e-9ca7-24dd97a20fce.jpg",
-        "socialmediaplatforms": [
-            {
-                "platform": "Facebook",
-                "platformurl": ""
-            },
-            {
-                "platform": "Twitter",
-                "platformurl": "https://twitter.com//"
-            },
-            {
-                "platform": "Instagram",
-                "platformurl": "https://instagram.com//"
-            }
-        ],
-        "channel": {
-            "id": 132,
-            "name": "P1"
+        {
+          "platform": "Twitter",
+          "platformurl": "https://twitter.com//"
         },
-        "archived": false,
-        "hasondemand": false,
-        "haspod": true,
-        "responsibleeditor": "Karin Arbsjö",
-        "id": 5054,
-        "name": "Fredag i P1"
+        {
+          "platform": "Instagram",
+          "platformurl": "https://instagram.com//"
+        }
+      ],
+      "channel": {
+        "id": 132,
+        "name": "P1"
+      },
+      "archived": false,
+      "hasondemand": false,
+      "haspod": true,
+      "responsibleeditor": "Karin Arbsjö",
+      "id": 5054,
+      "name": "Fredag i P1"
     },
     {
-        "description": "En humoristisk och satirisk podd. 17-åriga Nanna får en existentiell kris och startar en youtube-kanal som ett ironiskt konstprojekt.",
-        "programcategory": {
-            "id": 133,
-            "name": "Humor"
+      "description": "En humoristisk och satirisk podd. 17-åriga Nanna får en existentiell kris och startar en youtube-kanal som ett ironiskt konstprojekt.",
+      "programcategory": {
+        "id": 133,
+        "name": "Humor"
+      },
+      "broadcastinfo": "",
+      "email": "lyssnarservice@sverigesradio.se",
+      "phone": "",
+      "programurl": "https://www.sverigesradio.se/punani-99",
+      "programslug": "punani-99",
+      "programimage": "https://static-cdn.sr.se/images/5166/d2e83c1b-770f-40cf-82d4-1396b642f7ff.jpg?preset=api-default-square",
+      "programimagetemplate": "https://static-cdn.sr.se/images/5166/d2e83c1b-770f-40cf-82d4-1396b642f7ff.jpg",
+      "programimagewide": "https://static-cdn.sr.se/images/5166/86a15575-4962-4165-b9cd-c4ec0b88e60a.jpg?preset=api-default-rectangle",
+      "programimagetemplatewide": "https://static-cdn.sr.se/images/5166/86a15575-4962-4165-b9cd-c4ec0b88e60a.jpg",
+      "socialimage": "https://static-cdn.sr.se/images/5166/d2e83c1b-770f-40cf-82d4-1396b642f7ff.jpg?preset=api-default-square",
+      "socialimagetemplate": "https://static-cdn.sr.se/images/5166/d2e83c1b-770f-40cf-82d4-1396b642f7ff.jpg",
+      "socialmediaplatforms": [
+        {
+          "platform": "Facebook",
+          "platformurl": ""
         },
-        "broadcastinfo": "",
-        "email": "lyssnarservice@sverigesradio.se",
-        "phone": "",
-        "programurl": "https://www.sverigesradio.se/punani-99",
-        "programslug": "punani-99",
-        "programimage": "https://static-cdn.sr.se/images/5166/d2e83c1b-770f-40cf-82d4-1396b642f7ff.jpg?preset=api-default-square",
-        "programimagetemplate": "https://static-cdn.sr.se/images/5166/d2e83c1b-770f-40cf-82d4-1396b642f7ff.jpg",
-        "programimagewide": "https://static-cdn.sr.se/images/5166/86a15575-4962-4165-b9cd-c4ec0b88e60a.jpg?preset=api-default-rectangle",
-        "programimagetemplatewide": "https://static-cdn.sr.se/images/5166/86a15575-4962-4165-b9cd-c4ec0b88e60a.jpg",
-        "socialimage": "https://static-cdn.sr.se/images/5166/d2e83c1b-770f-40cf-82d4-1396b642f7ff.jpg?preset=api-default-square",
-        "socialimagetemplate": "https://static-cdn.sr.se/images/5166/d2e83c1b-770f-40cf-82d4-1396b642f7ff.jpg",
-        "socialmediaplatforms": [
-            {
-                "platform": "Facebook",
-                "platformurl": ""
-            },
-            {
-                "platform": "Instagram",
-                "platformurl": "https://instagram.com//"
-            }
-        ],
-        "channel": {
-            "id": 2332,
-            "name": "[No channel]"
-        },
-        "archived": false,
-        "hasondemand": false,
-        "haspod": true,
-        "responsibleeditor": "Caroline Pouron",
-        "id": 5166,
-        "name": "Punani_99"
+        {
+          "platform": "Instagram",
+          "platformurl": "https://instagram.com//"
+        }
+      ],
+      "channel": {
+        "id": 2332,
+        "name": "[No channel]"
+      },
+      "archived": false,
+      "hasondemand": false,
+      "haspod": true,
+      "responsibleeditor": "Caroline Pouron",
+      "id": 5166,
+      "name": "Punani_99"
     },
     {
-        "description": "Humorserie med Sissela Benn och Jonatan Unge om parterapi och svårigheten att ha en relation när man bestämt sig för att göra slut. Från 2020. Serien inspirerade SVT-programmet Populära problem.",
-        "programcategory": {
-            "id": 133,
-            "name": "Humor"
-        },
-        "payoff": "",
-        "broadcastinfo": " ",
-        "email": "drama@sverigesradio.se",
-        "phone": "",
-        "programurl": "https://www.sverigesradio.se/skarvor-av-ett-aktenskap",
-        "programslug": "skarvor-av-ett-aktenskap",
-        "programimage": "https://static-cdn.sr.se/images/5383/b28a3f79-91c7-4a16-8d2a-c432d7571640.jpg?preset=api-default-square",
-        "programimagetemplate": "https://static-cdn.sr.se/images/5383/b28a3f79-91c7-4a16-8d2a-c432d7571640.jpg",
-        "programimagewide": "https://static-cdn.sr.se/images/5383/aa24375b-418b-4f74-8f60-0669db685c20.png?preset=api-default-rectangle",
-        "programimagetemplatewide": "https://static-cdn.sr.se/images/5383/aa24375b-418b-4f74-8f60-0669db685c20.png",
-        "socialimage": "https://static-cdn.sr.se/images/5383/b28a3f79-91c7-4a16-8d2a-c432d7571640.jpg?preset=api-default-square",
-        "socialimagetemplate": "https://static-cdn.sr.se/images/5383/b28a3f79-91c7-4a16-8d2a-c432d7571640.jpg",
-        "socialmediaplatforms": [
-            {
-                "platform": "Facebook",
-                "platformurl": ""
-            }
-        ],
-        "channel": {
-            "id": 2332,
-            "name": "[No channel]"
-        },
-        "archived": false,
-        "hasondemand": false,
-        "haspod": true,
-        "responsibleeditor": "Doreen Kanter",
-        "id": 5383,
-        "name": "Skärvor av ett äktenskap"
+      "description": "Humorserie med Sissela Benn och Jonatan Unge om parterapi och svårigheten att ha en relation när man bestämt sig för att göra slut. Från 2020. Serien inspirerade SVT-programmet Populära problem.",
+      "programcategory": {
+        "id": 133,
+        "name": "Humor"
+      },
+      "payoff": "",
+      "broadcastinfo": " ",
+      "email": "drama@sverigesradio.se",
+      "phone": "",
+      "programurl": "https://www.sverigesradio.se/skarvor-av-ett-aktenskap",
+      "programslug": "skarvor-av-ett-aktenskap",
+      "programimage": "https://static-cdn.sr.se/images/5383/b28a3f79-91c7-4a16-8d2a-c432d7571640.jpg?preset=api-default-square",
+      "programimagetemplate": "https://static-cdn.sr.se/images/5383/b28a3f79-91c7-4a16-8d2a-c432d7571640.jpg",
+      "programimagewide": "https://static-cdn.sr.se/images/5383/aa24375b-418b-4f74-8f60-0669db685c20.png?preset=api-default-rectangle",
+      "programimagetemplatewide": "https://static-cdn.sr.se/images/5383/aa24375b-418b-4f74-8f60-0669db685c20.png",
+      "socialimage": "https://static-cdn.sr.se/images/5383/b28a3f79-91c7-4a16-8d2a-c432d7571640.jpg?preset=api-default-square",
+      "socialimagetemplate": "https://static-cdn.sr.se/images/5383/b28a3f79-91c7-4a16-8d2a-c432d7571640.jpg",
+      "socialmediaplatforms": [
+        {
+          "platform": "Facebook",
+          "platformurl": ""
+        }
+      ],
+      "channel": {
+        "id": 2332,
+        "name": "[No channel]"
+      },
+      "archived": false,
+      "hasondemand": false,
+      "haspod": true,
+      "responsibleeditor": "Doreen Kanter",
+      "id": 5383,
+      "name": "Skärvor av ett äktenskap"
     },
     {
-        "description": "Satir med Fritte Fritzson och utrikeskorrespondenter från länder som Påland, Krutong, Svejsch och USB.",
-        "programcategory": {
-            "id": 133,
-            "name": "Humor"
-        },
-        "broadcastinfo": "Söndag i  P1-programmet Godmorgon världen! och som podd i P1 onsdag 18.50.",
-        "email": "radioskugga@sverigesradio.se",
-        "phone": "",
-        "programurl": "https://www.sverigesradio.se/radioskugga",
-        "programslug": "radioskugga",
-        "programimage": "https://static-cdn.sr.se/images/6628/fddc2f3c-fcbc-4081-b9cb-6b4fb62a06c6.jpg?preset=api-default-square",
-        "programimagetemplate": "https://static-cdn.sr.se/images/6628/fddc2f3c-fcbc-4081-b9cb-6b4fb62a06c6.jpg",
-        "programimagewide": "https://static-cdn.sr.se/images/6628/eb47d6e6-f4a1-4b88-a83e-bfa6765f8c79.jpg?preset=api-default-rectangle",
-        "programimagetemplatewide": "https://static-cdn.sr.se/images/6628/eb47d6e6-f4a1-4b88-a83e-bfa6765f8c79.jpg",
-        "socialimage": "https://static-cdn.sr.se/images/6628/fddc2f3c-fcbc-4081-b9cb-6b4fb62a06c6.jpg?preset=api-default-square",
-        "socialimagetemplate": "https://static-cdn.sr.se/images/6628/fddc2f3c-fcbc-4081-b9cb-6b4fb62a06c6.jpg",
-        "socialmediaplatforms": [],
-        "channel": {
-            "id": 132,
-            "name": "P1"
-        },
-        "archived": false,
-        "hasondemand": false,
-        "haspod": true,
-        "responsibleeditor": "Klas Wolf-Watz",
-        "id": 6628,
-        "name": "Radioskugga"
+      "description": "Satir med Fritte Fritzson och utrikeskorrespondenter från länder som Påland, Krutong, Svejsch och USB.",
+      "programcategory": {
+        "id": 133,
+        "name": "Humor"
+      },
+      "broadcastinfo": "Söndag i  P1-programmet Godmorgon världen! och som podd i P1 onsdag 18.50.",
+      "email": "radioskugga@sverigesradio.se",
+      "phone": "",
+      "programurl": "https://www.sverigesradio.se/radioskugga",
+      "programslug": "radioskugga",
+      "programimage": "https://static-cdn.sr.se/images/6628/fddc2f3c-fcbc-4081-b9cb-6b4fb62a06c6.jpg?preset=api-default-square",
+      "programimagetemplate": "https://static-cdn.sr.se/images/6628/fddc2f3c-fcbc-4081-b9cb-6b4fb62a06c6.jpg",
+      "programimagewide": "https://static-cdn.sr.se/images/6628/eb47d6e6-f4a1-4b88-a83e-bfa6765f8c79.jpg?preset=api-default-rectangle",
+      "programimagetemplatewide": "https://static-cdn.sr.se/images/6628/eb47d6e6-f4a1-4b88-a83e-bfa6765f8c79.jpg",
+      "socialimage": "https://static-cdn.sr.se/images/6628/fddc2f3c-fcbc-4081-b9cb-6b4fb62a06c6.jpg?preset=api-default-square",
+      "socialimagetemplate": "https://static-cdn.sr.se/images/6628/fddc2f3c-fcbc-4081-b9cb-6b4fb62a06c6.jpg",
+      "socialmediaplatforms": [],
+      "channel": {
+        "id": 132,
+        "name": "P1"
+      },
+      "archived": false,
+      "hasondemand": false,
+      "haspod": true,
+      "responsibleeditor": "Klas Wolf-Watz",
+      "id": 6628,
+      "name": "Radioskugga"
     },
     {
-        "description": "I Sveriges Radios nya satirpodd får politikerna varje vecka hjälp med att lösa sina svåraste problem.",
-        "programcategory": {
-            "id": 133,
-            "name": "Humor"
-        },
-        "broadcastinfo": "Poddsläpp fredag 06.00 och i P3 söndag 07.00.",
-        "email": "konsulterna@sverigesradio.se ",
-        "phone": "",
-        "programurl": "https://www.sverigesradio.se/konsulterna",
-        "programslug": "konsulterna",
-        "programimage": "https://static-cdn.sr.se/images/6664/3ee87779-3464-4c91-b72b-4f0e17c5d752.jpg?preset=api-default-square",
-        "programimagetemplate": "https://static-cdn.sr.se/images/6664/3ee87779-3464-4c91-b72b-4f0e17c5d752.jpg",
-        "programimagewide": "https://static-cdn.sr.se/images/6664/28c1b9ef-fe10-45c4-9752-636e3b8cb73b.jpg?preset=api-default-rectangle",
-        "programimagetemplatewide": "https://static-cdn.sr.se/images/6664/28c1b9ef-fe10-45c4-9752-636e3b8cb73b.jpg",
-        "socialimage": "https://static-cdn.sr.se/images/6664/3ee87779-3464-4c91-b72b-4f0e17c5d752.jpg?preset=api-default-square",
-        "socialimagetemplate": "https://static-cdn.sr.se/images/6664/3ee87779-3464-4c91-b72b-4f0e17c5d752.jpg",
-        "socialmediaplatforms": [
-            {
-                "platform": "Instagram",
-                "platformurl": "https://instagram.com/p3poddar/"
-            }
-        ],
-        "channel": {
-            "id": 2332,
-            "name": "[No channel]"
-        },
-        "archived": false,
-        "hasondemand": false,
-        "haspod": true,
-        "responsibleeditor": "Caroline Kernen",
-        "id": 6664,
-        "name": "Konsulterna"
+      "description": "I Sveriges Radios nya satirpodd får politikerna varje vecka hjälp med att lösa sina svåraste problem.",
+      "programcategory": {
+        "id": 133,
+        "name": "Humor"
+      },
+      "broadcastinfo": "Poddsläpp fredag 06.00 och i P3 söndag 07.00.",
+      "email": "konsulterna@sverigesradio.se ",
+      "phone": "",
+      "programurl": "https://www.sverigesradio.se/konsulterna",
+      "programslug": "konsulterna",
+      "programimage": "https://static-cdn.sr.se/images/6664/3ee87779-3464-4c91-b72b-4f0e17c5d752.jpg?preset=api-default-square",
+      "programimagetemplate": "https://static-cdn.sr.se/images/6664/3ee87779-3464-4c91-b72b-4f0e17c5d752.jpg",
+      "programimagewide": "https://static-cdn.sr.se/images/6664/28c1b9ef-fe10-45c4-9752-636e3b8cb73b.jpg?preset=api-default-rectangle",
+      "programimagetemplatewide": "https://static-cdn.sr.se/images/6664/28c1b9ef-fe10-45c4-9752-636e3b8cb73b.jpg",
+      "socialimage": "https://static-cdn.sr.se/images/6664/3ee87779-3464-4c91-b72b-4f0e17c5d752.jpg?preset=api-default-square",
+      "socialimagetemplate": "https://static-cdn.sr.se/images/6664/3ee87779-3464-4c91-b72b-4f0e17c5d752.jpg",
+      "socialmediaplatforms": [
+        {
+          "platform": "Instagram",
+          "platformurl": "https://instagram.com/p3poddar/"
+        }
+      ],
+      "channel": {
+        "id": 2332,
+        "name": "[No channel]"
+      },
+      "archived": false,
+      "hasondemand": false,
+      "haspod": true,
+      "responsibleeditor": "Caroline Kernen",
+      "id": 6664,
+      "name": "Konsulterna"
     }
   ]
 }
-
-
-    
