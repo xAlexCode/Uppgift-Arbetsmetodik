@@ -1,13 +1,14 @@
-import {getPodcasts} from './api'
+import type { IPodcast, IPodcastResponse } from './types.ts'; // Importera interfacen 
+import {getPodcasts} from './api.ts'; 
 
 
-const podCastContainer = document.querySelector('.podListContainer');
+const podCastContainer = document.querySelector('.podListContainer') as HTMLElement; // Säga att det är ett html-element annars klagar den på null
 
-let i = 0;
+//let i = 0; kanske behöver senare
 
 export async function createHtml (){
-    const podCasts = await getPodcasts ();
-    podCasts.programs.forEach((podcast) => { //Lägg till index igen senare
+    const podCasts = await getPodcasts () as IPodcastResponse; // Lova ts att datan följer interfacet
+    podCasts.programs.forEach((podcast: IPodcast) => { //Lägg till index igen senare
     console.log("API-svar:", podCasts); // Logga API svaret, dock hela listan
     const innerArticle = createInnerArticle();
 
