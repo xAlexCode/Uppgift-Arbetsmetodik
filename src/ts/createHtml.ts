@@ -5,8 +5,6 @@ const podCastContainer = document.querySelector(
   ".podListContainer",
 ) as HTMLElement; // Måste säga att det är ett html-element annars klagar den på null
 
-//let i = 0; kanske behöver senare
-
 function createInnerArticle(container: HTMLElement) {
   // Ligger utanför loopen därför skickas container in som en parameter
   const innerArticle = document.createElement("article");
