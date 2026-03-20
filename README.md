@@ -36,7 +36,7 @@ För att komma igång med projektet behövs följande:
 - [x] Dokumentation
 - [x] Tillgänglighet (bilder)
 - [x] Tillgänglighet (HTML-kod)
-- [ ] Refaktorera funktioner
+- [x] Refaktorera funktioner
 - [ ] Eliminera onödig kod
 - [ ] Rensa bort kod som inte ska sättas
 - [ ] Infoga skärmdumpar på commit-meddelanden i README-filen
