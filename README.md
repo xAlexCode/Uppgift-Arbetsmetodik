@@ -39,7 +39,7 @@ För att komma igång med projektet behövs följande:
 - [x] Refaktorera funktioner
 - [x] Eliminera onödig kod
 - [x] Rensa bort kod som inte ska sättas
-- [ ] Refaktorera namngivning
+- [x] Refaktorera namngivning
 - [ ] Infoga skärmdumpar på commit-meddelanden i README-filen
 - [ ] Infoga skärmdumpar på branches i README-filen
   

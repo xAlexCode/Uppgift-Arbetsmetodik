@@ -1,70 +1,75 @@
 import { getPodcasts } from "./api.ts";
 import type { IPodcast, IPodcastResponse } from "./types.ts"; // Importera interfacen
 
-const podCastContainer = document.querySelector(
+const podcastContainer = document.querySelector(
   ".podListContainer",
 ) as HTMLElement; // Måste säga att det är ett html-element annars klagar den på null
 
-function createInnerArticle(container: HTMLElement) {
+function createPodcastArticle(container: HTMLElement) {
   // Ligger utanför loopen därför skickas container in som en parameter
-  const innerArticle = document.createElement("article");
-  innerArticle.classList.add("podListSections");
-  container.appendChild(innerArticle);
-  return innerArticle;
+  const podcastArticle = document.createElement("article");
+  podcastArticle.classList.add("podListSections");
+  container.appendChild(podcastArticle);
+  return podcastArticle;
 }
 
-function createTextDiv(innerArticle: HTMLElement) {
-  // Ligger utanför loopen, därför skickas innerArticle in som parameter
-  const textDiv = document.createElement("div");
-  textDiv.classList.add("podListContent");
-  innerArticle.appendChild(textDiv);
-  return textDiv;
+function createPodcastContent(podcastArticle: HTMLElement) {
+  // Ligger utanför loopen, därför skickas podcastArticle in som parameter
+  const contentContainer = document.createElement("div");
+  contentContainer.classList.add("podListContent");
+  podcastArticle.appendChild(contentContainer);
+  return contentContainer;
 }
 
-function createLink(podcast: IPodcast, textDiv: HTMLElement) {
-  // Ligger utanför loopen, därför skickas både podcast och textDiv in.
-  const linkPlacement = document.createElement("a");
+function createPodcastLink(podcast: IPodcast, contentContainer: HTMLElement) {
+  // Ligger utanför loopen, därför skickas både podcast och contentContainer in.
+  const podcastLink = document.createElement("a");
   const linkText = document.createTextNode("Lyssna här");
-  linkPlacement.setAttribute("href", podcast.programurl); // Behöver inget index eftersom podcast-objektet skickas in som parameter.
-  linkPlacement.appendChild(linkText);
-  textDiv.appendChild(linkPlacement);
+  podcastLink.setAttribute("href", podcast.programurl); // Behöver inget index eftersom podcast-objektet skickas in som parameter.
+  podcastLink.appendChild(linkText);
+  contentContainer.appendChild(podcastLink);
 }
-function createImg(podcast: IPodcast, innerArticle: HTMLElement) {
+function createPodcastImage(podcast: IPodcast, podcastArticle: HTMLElement) {
   // Ligger utanför loopen, därför skickas podcast och innerArticle in
-  const imgPlacement = document.createElement("img");
-  imgPlacement.setAttribute("src", podcast.socialimage);
-  imgPlacement.setAttribute("width", "100");
-  imgPlacement.setAttribute("height", "100");
-  imgPlacement.alt = `Programbild för humorprogrammet ${podcast.name}`;
-  innerArticle.appendChild(imgPlacement);
+  const podcastImage = document.createElement("img");
+  podcastImage.setAttribute("src", podcast.socialimage);
+  podcastImage.setAttribute("width", "100");
+  podcastImage.setAttribute("height", "100");
+  podcastImage.alt = `Programbild för humorprogrammet ${podcast.name}`;
+  podcastArticle.appendChild(podcastImage);
 }
 
-function createP(podcast: IPodcast, textDiv: HTMLElement) {
-  // Ligger utanför loopen, därför skickas podcast och textDiv in
-  const descPlacement = document.createElement("p");
-  const desc = document.createTextNode(podcast.description);
-  descPlacement.appendChild(desc);
-  textDiv.appendChild(descPlacement);
+function createPodcastDescription(
+  podcast: IPodcast,
+  contentContainer: HTMLElement,
+) {
+  // Ligger utanför loopen, därför skickas podcast och contentContainer in
+  const podcastDescription = document.createElement("p");
+  const descriptionText = document.createTextNode(podcast.description);
+
+  podcastDescription.appendChild(descriptionText);
+  contentContainer.appendChild(podcastDescription);
 }
 
-function createHeader(podcast: IPodcast, textDiv: HTMLElement) {
-  // Ligger utanför loopen, därför skickas podcast och textDiv in
-  const headerPlacement = document.createElement("h2");
-  const programName = document.createTextNode(podcast.name);
-  headerPlacement.appendChild(programName);
-  textDiv.appendChild(headerPlacement);
+function createPodcastTitle(podcast: IPodcast, contentContainer: HTMLElement) {
+  // Ligger utanför loopen, därför skickas podcast och contentContainer in
+  const podcastTitle = document.createElement("h2");
+  const titleText = document.createTextNode(podcast.name);
+  podcastTitle.appendChild(titleText);
+  contentContainer.appendChild(podcastTitle);
 }
 
 export async function createHtml() {
-  const podCasts = (await getPodcasts()) as IPodcastResponse; // Lova ts att datan följer interfacet
+  const podcastsResponse = (await getPodcasts()) as IPodcastResponse; // Lova ts att datan följer interfacet
 
-  podCasts.programs.forEach((podcast: IPodcast) => { // måste anropas i denna ordning
-    const innerArticle = createInnerArticle(podCastContainer);
-    createImg(podcast, innerArticle);
-    const textDiv = createTextDiv(innerArticle);
-    createHeader(podcast, textDiv);
-    createP(podcast, textDiv);
-    createLink(podcast, textDiv);
+  podcastsResponse.programs.forEach((podcast: IPodcast) => {
+    // Behöver anropas i denna ordning
+    const podcastArticle = createPodcastArticle(podcastContainer);
+    createPodcastImage(podcast, podcastArticle);
+    const contentContainer = createPodcastContent(podcastArticle);
+    createPodcastTitle(podcast, contentContainer);
+    createPodcastDescription(podcast, contentContainer);
+    createPodcastLink(podcast, contentContainer);
   });
 }
 
