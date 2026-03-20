@@ -40,19 +40,12 @@ För att komma igång med projektet behövs följande:
 - [x] Eliminera onödig kod
 - [x] Rensa bort kod som inte ska sättas
 - [x] Refaktorera namngivning
-- [ ] Infoga skärmdumpar på commit-meddelanden i README-filen
+- [x] Infoga skärmdumpar på commit-meddelanden i README-filen
 - [ ] Infoga skärmdumpar på branches i README-filen
-  
-- [ ] Rätt sak på rätt plats
-- [ ] Hantera loggning på ett effektivt sätt
-- [ ] Gör en tillgänglighetsgranskning av sidan
-- [ ] Utnyttja features i Sass i CSS:en
-- [ ] Rensa bort paket som inte används
-- [ ] Hantera fel i API-anropet
-- [ ] Gör en Lighthouse-analys
-- [ ] Läs av utvecklingsmiljön
-- [ ] Enhetlig syntax i CSS:en
-- [ ] Publicera sidan på GitHub pages
+
 
 ## Validerings resultat (HTML)
 ![Html validator](<Skärmavbild 2026-03-20 kl. 11.11.50.jpg>)
+
+## Screenshots commits
+![screenshots med commits](<Skärmavbild 2026-03-20 kl. 16.57.19.jpg>)
