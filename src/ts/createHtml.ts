@@ -45,10 +45,11 @@ export async function createHtml() {
       textDiv.appendChild(linkPlacement);
     }
     function createImg() {
-      const imgPlacement = document.createElement("IMG");
+      const imgPlacement = document.createElement("img");
       imgPlacement.setAttribute("src", podcast.socialimage);
       imgPlacement.setAttribute("width", "100");
       imgPlacement.setAttribute("height", "100");
+      imgPlacement.alt = `Programbild för humorprogrammet ${podcast.name}`; 
       innerArticle.appendChild(imgPlacement);
     }
 
