@@ -43,3 +43,9 @@ När jag validerade HTML dokumentet fick jag en varning om att mitt <article cla
 Från början låg alla funktioner i createHtml.ts inuti en loop. Det fungerade men blev rörigt och gjorde att funktionerna skapades om för varje podcast. Det gjorde dem svårare att förstå och återanvända. För att undvika code smells flyttade jag därför ut funktionerna ur loopen. När funktionerna ligger utanför behöver de få de variabler de använde i loopen som parametrar, till exempel podcast, innerArticle eller textDiv.
 
 Jag märkte att det var viktiga att behålla exakt samma anropsordning i loopen som tidigare, så att HTML‑strukturen blev identisk med originalet.
+
+## Eliminera onödig kod
+Tog bort en let ur createHtml.ts som var onödig, hade städat upp den ganska bra
+
+## Rensa bort kod som inte ska sättas
+Tog bort tab-index på alla funktioner i createHtml.ts då webbläsaren skulle sköta det.
