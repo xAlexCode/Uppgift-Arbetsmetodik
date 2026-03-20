@@ -38,3 +38,8 @@ Jag behövde också ändra document.createElement("IMG") till små bokstäver ("
 
 ## Tillgänglighet (HTML)
 När jag validerade HTML dokumentet fick jag en varning om att mitt <article class="podListContainer"> saknade en rubrik. Eftersom det elementet bara används som en container och fylls med innehåll från typescript valde jag att byta från <article> till <div>. Det är mer semantiskt korrekt och tar bort varningen i validatorn. Samt tog bort / i meta-taggarna.
+
+## Refaktorering av kod
+Från början låg alla funktioner i createHtml.ts inuti en loop. Det fungerade men blev rörigt och gjorde att funktionerna skapades om för varje podcast. Det gjorde dem svårare att förstå och återanvända. För att undvika code smells flyttade jag därför ut funktionerna ur loopen. När funktionerna ligger utanför behöver de få de variabler de använde i loopen som parametrar, till exempel podcast, innerArticle eller textDiv.
+
+Jag märkte att det var viktiga att behålla exakt samma anropsordning i loopen som tidigare, så att HTML‑strukturen blev identisk med originalet.
