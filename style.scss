@@ -1,10 +1,18 @@
+//Colors
+$textColorLight: #FFFFFF;
+$textColorDark: #242424;
+$textColorHover: #5555DA;
+
+$bgDark: #242424;
+$bgLight: #FAEBD7;
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: $textColorLight;
+  background-color: $bgDark;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -13,7 +21,6 @@ body {
 }
 
 .podList {
-
   h1 {
     font-size: 40px;
     text-align: center;
@@ -61,30 +68,32 @@ body {
         font-size: 1rem;
         margin: 0;
       }
-
-      a {
-        color: rgba(255, 255, 255, 0.87);
-        cursor: pointer;
-
-        &:hover,
-        &:active {
-          color: rgb(85, 85, 218);
-        }
-      }
     }
   }
 }
 
-.darkmode {
-  background-color: antiquewhite;
-  color: #242424;
+// Mörktläge
+a {
+  color: $textColorLight;
+  cursor: pointer;
+
+  &:hover,
+  &:active {
+    color: $textColorHover;
+  }
+}
+
+//Ljustläge
+.lightmode {
+  background-color: $bgLight;
+  color: $textColorDark;
 
   a {
-    color: #242424;
+    color: $textColorDark;
 
     &:hover,
     &:active {
-      color: rgb(85, 85, 218);
+      color: $textColorHover;
     }
   }
 }

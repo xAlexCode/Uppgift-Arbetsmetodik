@@ -49,3 +49,6 @@ Tog bort en let ur createHtml.ts som var onödig, hade städat upp den ganska br
 
 ## Rensa bort kod som inte ska sättas
 Tog bort tab-index på alla funktioner i createHtml.ts då webbläsaren skulle sköta det.
+
+## Refaktorera namngiving
+I createHtml.ts döpte jag om funktioner och variabler för att vara mer enhetliga och tydliga med vad som hände ex createimg till createPodcastImage. Även om dem är långa så är det bättre och tydligare. Valde att byta namn på togglen med mörkt/ljust tema också. Felsökte Sass dokumentet då a taggen var vit i lightmode trots att den inte skulle vara det.

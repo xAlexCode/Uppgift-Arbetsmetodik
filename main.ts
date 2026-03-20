@@ -1,9 +1,9 @@
 import "./style.scss";
 import { createHtml } from "./src/ts/createHtml";
-import { toggleLightMode } from "./src/ts/toggleDarkmode";
+import { toggleTheme } from "./src/ts/toggleTheme";
 
 function init() {
-  toggleLightMode();
+  toggleTheme();
   createHtml();
 }
 
