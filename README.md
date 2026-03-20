@@ -34,8 +34,8 @@ För att komma igång med projektet behövs följande:
 - [x] Språk
 - [x] Rensa loggning
 - [x] Dokumentation
-- [ ] Tillgänglighet (bilder)
-- [ ] Tillgänglighet (HTML-kod)
+- [x] Tillgänglighet (bilder)
+- [x] Tillgänglighet (HTML-kod)
 - [ ] Refaktorera funktioner
 - [ ] Eliminera onödig kod
 - [ ] Rensa bort kod som inte ska sättas
@@ -52,3 +52,6 @@ För att komma igång med projektet behövs följande:
 - [ ] Läs av utvecklingsmiljön
 - [ ] Enhetlig syntax i CSS:en
 - [ ] Publicera sidan på GitHub pages
+
+## Validerings resultat (HTML)
+![Html validator](<Skärmavbild 2026-03-20 kl. 11.11.50.jpg>)
