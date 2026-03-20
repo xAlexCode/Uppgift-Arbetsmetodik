@@ -41,11 +41,14 @@ För att komma igång med projektet behövs följande:
 - [x] Rensa bort kod som inte ska sättas
 - [x] Refaktorera namngivning
 - [x] Infoga skärmdumpar på commit-meddelanden i README-filen
-- [ ] Infoga skärmdumpar på branches i README-filen
+- [x] Infoga skärmdumpar på branches i README-filen
 
 
 ## Validerings resultat (HTML)
-![Html validator](<Skärmavbild 2026-03-20 kl. 11.11.50.jpg>)
+![Html validator](<htmlValidator.jpg>)
 
 ## Screenshots commits
-![screenshots med commits](<Skärmavbild 2026-03-20 kl. 16.57.19.jpg>)
+![screenshots med commits](<commits.jpg>)
+
+## Screenshots branches
+![screenshot branches](<branches.jpg>)
