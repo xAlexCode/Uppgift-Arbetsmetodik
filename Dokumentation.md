@@ -35,3 +35,6 @@ Skrev en kort beskrivning av vad projektet gör, la in en skärmdump, beskrev vi
 ## Tillgänglighet (bilder)
 I projektet skapas alla bilder i createHtml.ts, så de finns inte direkt i HTML‑filen. För att göra projektet mer tillgängligt behövde jag lägga till ett alt‑attribut i funktionen createImg(). Jag använder podcast.name i alt‑texten så att varje bild får en beskrivning som passar just det programmet. Det blev en generell alt‑text som funkar bra för alla poddbilder.
 Jag behövde också ändra document.createElement("IMG") till små bokstäver ("img"), annars trodde TypeScript att det var ett vanligt HTMLElement och då gick det inte att använda .alt.
+
+## Tillgänglighet (HTML)
+När jag validerade HTML dokumentet fick jag en varning om att mitt <article class="podListContainer"> saknade en rubrik. Eftersom det elementet bara används som en container och fylls med innehåll från typescript valde jag att byta från <article> till <div>. Det är mer semantiskt korrekt och tar bort varningen i validatorn. Samt tog bort / i meta-taggarna.
