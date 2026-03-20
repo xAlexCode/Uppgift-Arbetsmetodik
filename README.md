@@ -6,7 +6,7 @@ Projektet hämtar en lista över Sveriges Radios humorprogram via deras API. Pro
 ![Sida med namn och länkar till podcasts](<Projektet.jpg>)
 
 ## Tekniker
-![HTML badge](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![Sass badge](https://img.shields.io/badge/Sass-CC6699?style=flat&logo=sass&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![Markdown badge](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white) ![Vite badge](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Biome](https://img.shields.io/badge/biome-%2360A5FA.svg?style=for-the-badge&logo=biome&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Vite badge](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Biome](https://img.shields.io/badge/biome-%2360A5FA.svg?style=for-the-badge&logo=biome&logoColor=white)
 
 ## Kom igång guide 
 För att komma igång med projektet behövs följande:
