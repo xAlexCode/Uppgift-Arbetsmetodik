@@ -28,3 +28,10 @@ Byta från "en" till "sv", för att uppläsningen ska bli korrekt på svenska.
 ```
 ## Rensa loggnign
 Rensa bort console.log ur koden. Men behöll consol.error i api.ts eftersom den används vid felhantering och påverkar inte användaren.
+
+## Dokumentation
+Skrev en kort beskrivning av vad projektet gör, la in en skärmdump, beskrev vilka tekniker som använts och gjorde en kort kom igång guide om andra utvecklare vill ändra i projektet. 
+
+## Tillgänglighet (bilder)
+I projektet skapas alla bilder i createHtml.ts, så de finns inte direkt i HTML‑filen. För att göra projektet mer tillgängligt behövde jag lägga till ett alt‑attribut i funktionen createImg(). Jag använder podcast.name i alt‑texten så att varje bild får en beskrivning som passar just det programmet. Det blev en generell alt‑text som funkar bra för alla poddbilder.
+Jag behövde också ändra document.createElement("IMG") till små bokstäver ("img"), annars trodde TypeScript att det var ett vanligt HTMLElement och då gick det inte att använda .alt.
