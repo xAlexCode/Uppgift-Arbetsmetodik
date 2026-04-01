@@ -1,4 +1,30 @@
-# Beskrivning av vad projeket gör
+# Syfte med projektet
+Syftet är att arbeta med issues på GitHub och jobba med separata branches för varje uppgift. Målet är att lära sig hur man skapar ett issue, gör en branch, öppnar en pull request och sedan mergar in ändringarna i main.
+
+Det handlar också om att förstå varför det är viktigt att arbeta i branches istället för direkt i main så att man kan backa, testa och utveckla utan att riskera att förstöra huvudkoden.
+
+Detta projekt saknar Github pages då det inte var krav i uppgiften utan koden är det viktiga. 
+
+## Projektets uppgifter i ordning
+- [x] Få projektet att funka
+- [x] CSS till Sass
+- [x] Enhetlig namngivning i CSS:en
+- [x] Konvertera till TypeScript
+- [x] Enhetlig kodkvalitet
+- [x] Mobilvyn
+- [x] Språk
+- [x] Rensa loggning
+- [x] Dokumentation
+- [x] Tillgänglighet (bilder)
+- [x] Tillgänglighet (HTML-kod)
+- [x] Refaktorera funktioner
+- [x] Eliminera onödig kod
+- [x] Rensa bort kod som inte ska sättas
+- [x] Refaktorera namngivning
+- [x] Infoga skärmdumpar på commit-meddelanden i README-filen
+- [x] Infoga skärmdumpar på branches i README-filen
+
+## Beskrivning av vad projeket gör
 
 Projektet hämtar en lista över Sveriges Radios humorprogram via deras API. Programmen visas i en lista där varje post innehåller titel, bild, namn, beskrivning och en knapp för att lyssna. När användaren klickar på "Lyssna här" öppnas programmets sida hos Sveriges Radio, där avsnitten finns att spela upp. Finns även ett mörkt och ljust läge som man kan växla mellan.
 
@@ -23,26 +49,6 @@ För att komma igång med projektet behövs följande:
 - npm run build
 7. För att förhandsgranska den byggda versionen:
 - npm run preview
-
-## Projektets uppgifter i ordning
-- [x] Få projektet att funka
-- [x] CSS till Sass
-- [x] Enhetlig namngivning i CSS:en
-- [x] Konvertera till TypeScript
-- [x] Enhetlig kodkvalitet
-- [x] Mobilvyn
-- [x] Språk
-- [x] Rensa loggning
-- [x] Dokumentation
-- [x] Tillgänglighet (bilder)
-- [x] Tillgänglighet (HTML-kod)
-- [x] Refaktorera funktioner
-- [x] Eliminera onödig kod
-- [x] Rensa bort kod som inte ska sättas
-- [x] Refaktorera namngivning
-- [x] Infoga skärmdumpar på commit-meddelanden i README-filen
-- [x] Infoga skärmdumpar på branches i README-filen
-
 
 ## Validerings resultat (HTML)
 ![Html validator](<htmlValidator.jpg>)
