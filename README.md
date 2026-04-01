@@ -3,7 +3,7 @@ Syftet är att arbeta med issues på GitHub och jobba med separata branches för
 
 Det handlar också om att förstå varför det är viktigt att arbeta i branches istället för direkt i main så att man kan backa, testa och utveckla utan att riskera att förstöra huvudkoden.
 
-Detta projekt saknar Github pages då det inte var krav i uppgiften utan koden är det viktiga.
+Detta projekt saknar Github pages då det inte var krav i uppgiften utan koden är det viktiga. 
 
 ## Projektets uppgifter i ordning
 - [x] Få projektet att funka
